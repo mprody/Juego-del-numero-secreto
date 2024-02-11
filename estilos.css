@@ -2,15 +2,16 @@
     padding: 0;
     box-sizing:border-box;
     margin: 0;
-    color: black;
+    color: #fff;
     font-family: sans-serif;
 }
 body{
-    background:#FF0000;
+    background:#0a1362;
     height: 100vh;
 }
 .contenido{
- background: #8B0000;
+ background: #a91010;
+ border: 4px solid rgb(69, 0, 0);
  height: 70vh;
  margin: 5%;
  display: flex;
@@ -19,9 +20,28 @@ body{
  flex-direction: column;
  gap: 25px;
 }
+main input{
+    width: 200px;
+    height: 50px;
+    font-size: 18px;
+    color: black;
+}
+.botones{
+    display: flex;
+    flex-direction: row;
+}
 
+.boton{
+    margin-right: 25px;
+    font-size: 18px;
+    padding: 10px 15px;
+    width: 200px;
+    border: 1px solid rgb(69, 0, 0);
+    background: #790b0b;
+}
 
-
-
+.boton:hover{
+    background: #a910107e;
+}
 
 
